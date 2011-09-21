@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:weightSum="1"
+    android:background="@drawable/poker3">
+        
+    <LinearLayout 
+    android:gravity="center" 
+    android:orientation="horizontal" 
+    android:weightSum="1"
+    android:background="@drawable/caixadetextopreta"
+    android:layout_height="55dp" 
+    android:layout_width="290dp">
+    
+    <TextView
+    	android:gravity="center"
+    	android:layout_height="40dp"
+    	android:textColor="#FFFFFF"
+    	android:textSize="16px"
+    	android:text="Name:" 
+    	android:layout_width="70dp"/>
+    
+    <EditText 
+    	android:inputType="text" 
+    	android:id="@+id/etNomePartida" 
+    	android:layout_height="40dp" 
+    	android:layout_width="186dp">
+    </EditText>
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+    android:background="@drawable/caixadetextopreta"
+    android:layout_height="55dp" 
+    android:layout_width="290dp"
+    android:gravity="center" 
+    android:orientation="horizontal" 
+    android:weightSum="1">
+    
+    <TextView
+    	android:gravity="center"
+    	android:layout_height="40dp"
+    	android:layout_width="70dp"
+    	android:textColor="#FFFFFF"
+    	android:textSize="15px"
+    	android:text="Players:" 
+    	/>
+    
+    <EditText 
+    	android:inputType="number" 
+    	android:id="@+id/etPlayers" 
+    	android:layout_height="40dp" android:layout_width="192dp">
+    	
+    </EditText>
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+    android:background="@drawable/caixadetextopreta"
+    android:layout_width="290dp"
+    android:gravity="center" 
+    android:orientation="horizontal" 
+    android:weightSum="1" android:layout_height="60dp">
+    
+    <TextView
+    	android:gravity="center"
+    	android:layout_width="100dp"
+    	android:textColor="#FFFFFF"
+    	android:textSize="15px"
+    	android:text="Start Money" 
+    	android:layout_height="wrap_content"/>
+    
+    <EditText 
+    	android:inputType="number" 
+    	android:id="@+id/etStartMoney" 
+    	android:layout_height="40dp" 
+    	android:layout_width="176dp" 
+    	android:layout_weight="0.20">
+    	
+    </EditText>
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+    android:background="@drawable/caixadetextopreta"
+    android:layout_height="55dp" 
+    android:layout_width="290dp"
+    android:gravity="center" 
+    android:orientation="horizontal" 
+    android:weightSum="1">
+    
+    <TextView
+    	android:gravity="center"
+    	android:layout_height="40dp"
+    	android:layout_width="118dp"
+    	android:textColor="#FFFFFF"
+    	android:textSize="16px"
+    	android:text="Password:" 
+    	/>
+    
+    <EditText 
+    	android:inputType="textPassword" 
+    	android:id="@+id/etPassword" 
+    	android:layout_height="40dp" 
+    	android:layout_width="155dp">
+    	
+    </EditText>
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+    android:background="@drawable/caixadetextopreta"
+    android:layout_height="55dp" 
+    android:layout_width="290dp"
+    android:gravity="center" 
+    android:orientation="horizontal" 
+    android:weightSum="1"
+    >
+    
+    <TextView
+    	android:gravity="center"
+    	android:layout_height="40dp"
+    	android:layout_width="110dp"
+    	android:textColor="#FFFFFF"
+    	android:textSize="16px"
+    	android:text="Confirm:"
+    	/>
+    
+    <EditText 
+    	android:inputType="textPassword" 
+    	android:id="@+id/etConfirmPassword" 
+    	android:layout_height="40dp" 
+    	android:layout_width="172dp">
+    </EditText>
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center" 
+    android:orientation="horizontal" 
+    android:weightSum="1"
+    >
+    
+     <Button 
+     	android:id="@+id/newGameBtCreate" 
+    	android:text="Create" 
+    	android:layout_width="145dp" 
+    	android:layout_height="55dp"
+    	android:textSize="16px" 
+    	android:background="@drawable/blackbutton" 
+    	>
+    </Button>
+        
+     <Button      
+     	android:id="@+id/newGameBtCancel" 
+    	android:text="Cancel" 
+    	android:layout_width="145dp" 
+    	android:layout_height="55dp"
+    	android:textSize="16px"
+    	android:background="@drawable/blackbutton" 
+    	>
+    </Button>   
+        
+    </LinearLayout>
+    
+</LinearLayout>

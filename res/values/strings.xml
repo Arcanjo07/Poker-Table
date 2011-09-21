@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Poker Table</string>
+    <string name="sobre">Aplicativo feito pelos alunos do 7° Período do Curso de Sistemas de Informação
+    para a disciplina de Projeto Avançado de Software II ministrada por Raoni Kulesza.</string>
+    <string name="senhaVazia">No Password for a open game</string>
+</resources>

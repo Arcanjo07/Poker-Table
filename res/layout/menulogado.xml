@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@drawable/poker3" 
+    android:orientation="vertical">
+    
+    <Button
+    	android:id="@+id/menuLogadoBtNewGame"
+    	android:text="Create New Game" 
+    	android:layout_width="230dp" 
+    	android:layout_height="55dp"
+    	android:background="@drawable/blackbutton"
+    	/>
+    
+    <Button
+    	android:id="@+id/menuLogadoBtSearchGames"
+    	android:text="Search Games" 
+    	android:layout_width="230dp" 
+    	android:layout_height="55dp"
+    	android:background="@drawable/blackbutton"
+    	/>
+    
+    <Button
+    	android:id="@+id/menuLogadoBtRanking"
+    	android:text="Ranking" 
+    	android:layout_width="230dp" 
+    	android:layout_height="55dp"
+    	android:background="@drawable/blackbutton"
+    	/>
+    
+    <Button
+    	android:id="@+id/menuLogadoBtLogout"
+    	android:text="Logout" 
+    	android:layout_width="230dp" 
+    	android:layout_height="55dp"
+    	android:background="@drawable/blackbutton"
+    	/>
+
+</LinearLayout>

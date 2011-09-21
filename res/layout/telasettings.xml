@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" 
+    android:orientation="vertical"
+    android:background="@drawable/poker3">>
+    
+    <LinearLayout 
+    	android:orientation="horizontal"
+    	android:background="@drawable/caixadetextopreta"
+    	android:layout_height="55dp" 
+    	android:layout_width="230dp"
+    	android:gravity="center" 
+    	android:weightSum="1">
+    
+    	<TextView
+    	android:gravity="center"
+    	android:layout_width="90dp"
+    	android:layout_height="40dp"
+    	android:textColor="#FFFFFF"
+    	android:textSize="24px"
+    	android:text="Sound"
+    	/>
+    
+    	<ToggleButton 
+    		android:text="ToggleButton" 
+    		android:id="@+id/tbDesligarSom" 
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" android:layout_weight="0.24">
+    	</ToggleButton>
+    	
+    </LinearLayout>
+    
+	<LinearLayout 
+    	android:orientation="horizontal"
+    	android:background="@drawable/caixadetextopreta"
+    	android:layout_height="55dp" 
+    	android:layout_width="230dp"
+    	android:gravity="center"
+    android:weightSum="1">
+    
+    	<TextView
+    	android:gravity="center"
+    	android:layout_width="90dp"
+    	android:layout_height="40dp"
+    	android:text="Music"
+    	android:textColor="#FFFFFF"
+    	android:textSize="24px"
+    	/>
+    	
+    	<ToggleButton 
+    		android:id="@+id/toggleButton1" 
+    		android:layout_width="wrap_content" 
+    		android:text="ToggleButton" 
+    		android:layout_height="wrap_content" android:layout_weight="0.25">
+    	</ToggleButton>
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+    	android:orientation="horizontal"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:gravity="bottom|center_vertical"
+    >
+    
+    <Button 
+  	android:id="@+id/settingsBtBack"
+  	android:layout_width="230dp" 
+    android:layout_height="55dp"
+    android:background="@drawable/blackbutton"
+    android:text="Back"
+    />
+    
+    </LinearLayout>
+    
+</LinearLayout>
+    

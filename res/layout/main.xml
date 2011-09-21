@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/poker3" 
+    android:orientation="vertical">
+    >
+  
+  	<Button 
+  	android:id="@+id/mainBtLogin"
+  	android:layout_width="230dp" 
+    android:layout_height="55dp"
+    android:background="@drawable/blackbutton"
+    android:text="Login"
+    />
+  	
+  	<Button 
+  	android:id="@+id/mainBtSettings"
+  	android:layout_width="230dp" 
+    android:layout_height="55dp"
+    android:background="@drawable/blackbutton"
+    android:text="Settings"
+    />
+  	
+  	<Button 
+  	android:id="@+id/mainBtAbout"
+  	android:layout_width="230dp" 
+    android:layout_height="55dp"
+    android:background="@drawable/blackbutton"
+    android:text="About"
+    />
+  	
+  	<Button 
+  	android:id="@+id/mainBtExit"
+  	android:layout_width="230dp" 
+    android:layout_height="55dp"
+    android:background="@drawable/blackbutton"
+    android:text="Exit"
+    />
+    
+</LinearLayout>
